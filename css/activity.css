@@ -1,0 +1,204 @@
+   *
+         {
+             margin: 0;
+             padding: 0;
+             list-style: none;
+             text-decoration: none;
+             font-family: 'Open Sans'
+         }
+         .catagory_container
+         {
+             width: 1200px;
+             display: block;
+             margin: 0 auto;
+             overflow: hidden''
+         }
+        .catagory_item
+         {
+             float: left;
+             width: 20%;
+             background-color: white;
+             padding: 20px 0;
+             text-align: center;
+             cursor: pointer;
+             font-size: 15px;
+             color:black;
+         }
+         .catagory_item:hover
+         {
+             background-color: #00bfff;
+             color:white;
+         }
+         h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: #222222;
+             text-align: center;
+}
+         .block-container
+         {
+             width: 1200px;
+             display: block;
+             margin: 0 auto;
+             box-sizing: border-box;
+         }
+         .activity_item
+         {
+             box-sizing: border-box;
+             float: left;
+             padding: 2px;
+             width: 20%;
+             transition:0.4s ease-in-out;
+         }
+         .hide
+         {
+             transform: scale(0);
+             width: 0;
+             padding: 0;
+             transition: 0.4s ease-in-out;
+         }
+    .carousel-inner > .item > img {
+  width:100%;
+  height:360px;
+
+        }
+         h1
+         {
+             float: right;
+             font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #4664B1;
+    margin: 50px;
+         }
+#wrapper {
+    background-color: #ffffff;
+    clear: both;
+    position: relative;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+}
+         #content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+        . breadcrumb-list {
+    margin-bottom: 10px;
+}
+         .post-entry {
+    font-family: Lato,Geneva,sans-serif;
+}
+         .accord-title {
+  padding: 24px 30px;
+  background: skyblue;
+  position: relative;
+}
+
+.accord-title h3 {
+  padding-right: 64px;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.accord-title h3 {
+  padding-right: 0;
+  padding-left: 1090px;
+}
+
+.accord-title a.accord-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.23s ease-in-out;
+  -moz-transition: all 0.23s ease-in-out;
+  -webkit-transition: all 0.23s ease-in-out;
+  -o-transition: all 0.23s ease-in-out;
+  position: absolute;
+  width: 64px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  text-align: center;
+  border-left: 1px solid #ffffff;
+  left: 0;
+  right: auto;
+  border-right: 1px solid #ffffff;
+  border-left: none;
+}
+
+.accord-title a.accord-link:after {
+  font-family: 'FontAwesome';
+  content: '\f055';
+  font-size: 37px;
+  color: #fff;
+  line-height: 64px;
+  opacity: 0.5;
+}
+
+
+.accord-elem.active a.accord-link:after {
+  content: '\f056';
+  opacity: 1;
+}
+
+.accord-content {
+  padding: 20px 0 0;
+  overflow: hidden;
+background-color:#efefef;}
+         .img-fluid
+         {
+             height: 300px;
+             margin-left: 900px;
+         }
+         .post-entry p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6e7072;
+    margin: 20px 0 10px 0;
+}
+     .title2
+         {
+             float: right;
+             margin: 20px;
+         }
+#footer {
+    min-height: 100px;
+    background: #222222;
+    color: #fff;
+}
+#footer .copyright,
+#footer .designer {
+    padding-top: 45px;
+    font-size: 14px;
+}
+#footer .copyright p {
+    text-align: left;
+}
+#footer .designer p {
+    text-align: right;
+}
+#footer .copyright p,
+#footer .copyright p span a,
+#footer .designer p,
+#footer .designer a {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3px;
+}
+
+post-entry p
+{
+    color: black;
+}

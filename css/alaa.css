@@ -1,0 +1,32 @@
+*
+{
+    text-align: right;
+}
+.head
+{
+     font-weight:bold;
+    font-family: bitter,gerogia,Times,"Times New Roman",serif;
+    font-size: 1.2em;
+    color:#005E90;
+}
+.head:hover
+{
+    color:red;
+}
+.descrption
+{
+    color: #868686;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.post
+{
+    font-size: 1.1em;
+    text-align: justify;
+}
+.imageicon
+{
+    max-width: 15px;
+    margin: 0 auto;
+    display: block;
+}

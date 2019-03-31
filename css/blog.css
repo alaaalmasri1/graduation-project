@@ -1,0 +1,37 @@
+.navbar li
+{
+    font-weight:bold;
+    font-family: bitter,gerogia,Times,"Times New Roman",serif;
+    font-size: 1.2em;
+}
+#footer
+{
+    padding: 10px;
+    border-top: 1px solid black;
+   color: #eeeeee;
+    background-color: #1ab394;
+    text-align:center;
+}
+.head
+{
+     font-weight:bold;
+    font-family: bitter,gerogia,Times,"Times New Roman",serif;
+    font-size: 1.2em;
+    color:#005E90;
+}
+.head:hover
+{
+    color:#0090db;
+}
+.descrption
+{
+    color: #868686;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.imageicon
+{
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,689 @@
+/*======================================================
+                    DEFAULT VALUES:
+                    font-family:Helvetica
+                    SKYBLUE:#89D2DC(buttons,icons,linkes,lines&background)
+                    MAJORELLE BLUE:#6564DB(heading)
+                    PALATINATE BLUE:#232ED1(p)
+                    MAASTRICHT BLUE:#101D42(text with background)
+                    LICORICE :#0D1317
+========================================================*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+    
+}
+<!-- logo animation-->
+    
+
+.lds-spinner {
+  position: relative;
+  margin: 0 auto;
+  top: 100%;
+    border-radius: 50%;
+}
+
+
+.container-load{
+	background-color: rgba(0,0,0,0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	margin-top: 0px;
+	top: 0px;
+	
+}
+.lds-spinner div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  -webkit-animation: lds-spinner linear 1s infinite;
+  animation: lds-spinner linear 1s infinite;
+  background: #fff;
+      width: 150px;
+    height: 3px;
+  border-radius: 40%;
+  -webkit-transform-origin: 6px 52px;
+  transform-origin: 6px 52px;
+
+}
+.lds-spinner span {
+    font-size: 20px;
+    top: 175px;
+    /* left: 25px; */
+    position: relative;
+    color: #d1a334;
+    display: block;
+    text-align: center;
+    font-family: arial;
+}
+.lds-spinner img
+{position: absolute;
+  height: 88px;
+  left: 0;
+  top: 70px;
+  width: 65px;
+  right: 0;
+  margin: 0 auto;}
+
+#alaa {
+  margin-top: 21px;
+}
+.LogosArea .col-md-6
+{ text-align:center;
+}
+.LogosArea .col-md-6 img
+{ max-width:100%;
+}
+.pull-left
+{ float:left;
+    width: 80px;
+    height: 85px;
+}
+.pull-rightlogo
+{ float:right;
+    width: 57px;
+    height: 84px;
+}
+.left
+{ float:left;
+    padding-top: 35px;
+}
+.left ul li a
+{
+   padding: 5px;
+}
+.left .themesDrop
+{ cursor:pointer;
+}
+.themesDrop .dropdown-menu
+{ min-width:inherit; width:25px;
+    border-radius:0px;
+right:-5px; 
+    background-color:#49494c;
+    border:0px;}
+.left li
+{
+    display: inline-block;
+}
+.dropdown-menu
+{left:auto; right:0;
+}
+.dropdown-menu>li>a
+{ text-align:right;
+}
+.LogosArea .pull-left
+{ float:left;
+}
+.slogin
+{ margin-top:20px;
+    width: 365px;
+    height: 53px;
+     margin-top:20px;
+}
+.top_header ul
+{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+.top_header ul li
+{color:#49494c;
+    display:inline-block;
+    margin:0px 5px;
+    font-family: 'Conv_GE_Dinar_Two_Medium';
+    font-size: 20px;
+}
+
+.CallCenter {
+    color: #49494c;
+    text-align: center;
+}
+.login li a
+{
+    color: wheat;
+}
+.CallCenter i
+{ font-size:18px;
+margin:0px 5px;
+}
+/*meansall elements in universal selector so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers.*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.zero_mp {
+  padding: 0;
+  margin: 0;
+}
+
+.LogosArea
+{
+  margin:10px 0px;
+}
+div {
+  display: block;
+}
+
+.login li a
+{
+    color: black;
+}
+.continer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 0px;
+  background: wheat;
+}
+
+#header .top_header .address {
+  border-right: 1px solid #E6E5E5;
+}
+
+#header .top_header .address p {
+  font-size: 12px;
+  padding-top: 2px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header .top_header .phone p {
+  color: black;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  display: inline-block;
+    
+}
+#header .top_header .address i,
+#header .top_header .phone i {
+  padding: 3px 5px;
+  font-size: 15px;
+    
+    
+}
+
+#header .top_header .social i {
+  padding: 0 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#header .top_header .social i:hover {
+  color: #89D2DC;
+}
+
+#header .header_menu {
+  min-height: 50px;
+  border-bottom: 1px solid black;
+  z-index: 9999
+}
+
+
+.logo-color {
+  color: #a7ae83;
+  font-size: 30px;
+}
+.blue-logo {
+  color: #49a8ca;
+}
+
+#header .header_menu {
+  min-height: 80px;
+  border-bottom: 1px solid #3D3E3D;
+  z-index: 9999
+}
+
+#header .header_menu .navbar {
+  border: 1px solid transparent;
+}
+
+#header .header_menu .custom_navbar-brand {
+  padding-left: 0;
+}
+
+#header .header_menu .navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#header .header_menu .navbar-default .navbar-nav>.active>a,
+#header .header_menu .navbar-default .navbar-nav>.active>a:focus,
+#header .header_menu .navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#header .header_menu .main_menu {
+  padding-top: 20px;
+}
+
+#header .header_menu ul.main_menu li a {
+  color: #393939;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+}
+
+#header .header_menu ul.main_menu li a:hover {
+  color: #4DA91C;
+}
+#header .header_menu ul.main_menu li,
+#header .header_menu ul.main_menu li.active a {
+  display: inline-block;
+  position: relative;
+}
+
+#header .header_menu ul.main_menu li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  transition: width .5s ease, background-color .5s ease;
+  margin-top: 6px;
+}
+
+#header .header_menu ul.main_menu li:hover:after,
+#header .header_menu ul.main_menu li.active:after {
+  width: 90%;
+  background: #89D2DC;
+  ;
+}
+
+.main_menu ul {
+  position: absolute;
+  top: -799em;
+  width: 1em;
+}
+
+.main_menu li a {
+  font-family: 'Oswald', serif;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.main_menu {
+  line-height: 1.0;
+  margin-top: -5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main_menu li {
+  float: left;
+  position: relative;
+}
+
+.main_menu li:hover {
+  visibility: inherit;
+}
+
+#header .header_menu ul.main_menu li a {
+  color: #393939;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+}
+
+.main_menu a {
+  display: block;
+  position: relative;
+}
+
+.main_menu li:hover ul, .sf-menu li.sfHover ul {
+  left: 0;
+  top: 2.5em;
+  /* match top ul list item height */
+  z-index: 100;
+}
+
+.main_menu li a:hover {
+  /* visited pseudo selector so IE6 applies text colour*/
+  color: #89D2DC;
+}
+
+/*========================================================================
+SECOND PAGE FOR CHARITY
+==========================================================================
+ */
+ 
+div#container {
+  width: 100%;
+  margin: 0 auto;
+}
+/*Footer*/
+#footer {
+  min-height: 100px;
+  background: #009b77;
+  color: black;
+}
+
+#footer .copyright,
+#footer .designer {
+  padding-top: 45px;
+  font-size: 14px;
+}
+
+#footer .copyright p {
+  text-align: left;
+}
+
+#footer .designer p {
+  text-align: right;
+}
+
+#footer .copyright p,
+#footer .copyright p span a,
+#footer .designer p,
+#footer .designer a {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 3px;
+}
+ul 
+{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   direction: rtl;
+ }
+
+ol {
+  direction: rtl;
+}
+
+p {
+  margin: 12px 0;
+  direction: rtl;
+}
+
+div.clear {
+  clear: both;
+}
+div.breadcrumb {
+  height: 33px;
+  margin-top: 10px;
+  background: #f1f1f1;
+  float: left;
+  margin-right: 100px;
+  width: 100%;
+}
+div.breadcrumb ul li {
+  float: right;
+}
+div.breadcrumb ul li.home {
+  background: #184e02;
+  position: relative;
+  bottom: 5px;
+}
+div.breadcrumb ul li a {
+  display: block;
+  line-height: 33px;
+  padding: 0 15px;
+  color: #262626;
+}
+
+div.breadcrumb ul li.separator {
+  padding-top: 10px
+}
+div#left {
+  width: 220px;
+  float: left;
+}
+div.widget {
+  padding: 2px;
+  border: solid 1px #d0d0d0;
+  position: relative;
+  margin-top: 20px;
+ margin-left: 20px;
+}
+.yellow .yellow-link {
+    display: block;
+    width: 200px;
+    height: 74px;
+    direction: ltr;
+    text-align: left;
+    margin-bottom: 5px;
+    background-color:aqua;
+    
+}
+.yellow .zakat {
+    background-position: -220px 0;
+}
+.yellow .donation {
+    background-position: -220px -78px;
+}
+.yellow .projects {
+    background-position: -220px -236px;
+    margin: 0;
+}
+.yellow .complex {
+    background-position: -220px -158px;
+}
+div#middle {
+  width:70%;
+  float: right;
+}
+
+div.content-body {
+  border: solid 1px #d0d0d0;
+  padding: 14px 16px;
+    margin-left: 30px;
+}
+p.form-intro span.asterisk {
+  color: #184E02;
+}
+
+p.form-intro span.asterisk {
+  color: #184E02;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset p.form-intro {
+  color: #777;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+fieldset ul.form {
+  list-style: none;
+  display: block;
+}
+
+fieldset ul.form li.field {
+  display: block;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+fieldset ul.form li.field label {
+  float: right;
+  margin-top: 5px;
+  width: 230px;
+  position: relative;
+  color: #184E02;
+  font-size: 1.08em;
+  font-weight: bold;
+}
+
+fieldset ul.form li.field table.sectors tr td label {
+  float: none;
+  margin-top: auto;
+  width: auto;
+  color: #382C25;
+  font-size: inherit;
+}
+
+fieldset ul.form li.field label.required span.asterisk {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+fieldset ul.form li.field label small {
+  font-size: 11px;
+  display: block;
+  font-weight: normal;
+  color: #666;
+  margin-top: 5px;
+}
+
+fieldset ul.form li.field div.field-value {
+  width: 300px;
+  float: right;
+  margin-right: 3px;
+  padding-right: 10px;
+}
+
+fieldset ul.form li.field div.field-value small {
+  font-size: 11px;
+  font-weight: normal;
+  color: #d60638;
+  margin-top: 5px;
+  display: none;
+}
+
+fieldset ul.form li.field div.field-value textarea.medium {
+  width: 290px;
+  padding: 5px;
+  height: 70px;
+  font-size: 12px;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+fieldset ul.form li.field div.field-value input.textbox {
+  width: 290px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+fieldset ul.form li.field div.field-value textarea.textarea {
+  width: 290px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+fieldset ul.form li.field div.field-value textarea.editor {
+  width: 430px;
+  padding: 5px;
+  height: 350px;
+  font-size: 12px;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+  color: #737373;
+  border: 1px solid #ddd;
+}
+
+fieldset ul.form li.field div.field-value select {
+  width: 300px;
+  padding: 5px;
+  color: #666;
+  border: 1px solid #ddd;
+  font-family: Tahoma;
+}
+
+fieldset ul.form li.field div.field-value-full {
+  width: 440px;
+}
+
+fieldset ul.form li.field div.field-value textarea.profile {
+  width: 443px !important;
+}
+
+fieldset ul.form li.field div.field-value-full textarea.medium {
+  width: 430px;
+}
+
+fieldset ul.form li.field div.field-value input.textbox-code {
+  width: 40px;
+  margin-right: 5px;
+}
+
+fieldset ul.form li.field div.field-value input.textbox-phone {
+  width: 157px;
+}
+
+fieldset ul.form li.field div.field-value span.textarea-limit {
+  float: left;
+  font-size: 10px;
+  color: #888;
+}
+
+fieldset ul.form li.field div.field-value span.textarea-limit span {
+  color: #d60638;
+}
+fieldset ul.form {
+  list-style: none;
+  display: block;
+}
+
+fieldset ul.form li.field {
+  display: block;
+  padding-bottom: 10px;
+  clear: both;
+}fieldset ul.form li.field label {
+   float: right;
+   margin-top: 5px;
+   width: 230px;
+   position: relative;
+   color: #184E02;
+   font-size: 1.08em;
+   font-weight: bold;
+ }
+fieldset ul.form li.field label small {
+  font-size: 11px;
+  display: block;
+  font-weight: normal;
+  color: #666;
+  margin-top: 5px;
+}
+
+fieldset ul.form li.field div.field-value {
+  width: 300px;
+  float: right;
+  margin-right: 3px;
+  padding-right: 10px;
+}
+fieldset ul.form li.field div.field-value input.textbox {
+  width: 290px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+  color: #666;
+  border: 1px solid #ddd;
+}
+fieldset ul.form li.actions {
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+}
