@@ -3,7 +3,6 @@ require_once "include/db.php";
 require_once "include/session.php";
 require_once "include/function.php";
 ?>
-<?php confirmlogin()?>
 <?php
 if(isset($_POST['submit']))
 {
@@ -50,8 +49,8 @@ if(isset($_POST['submit']))
     <head>
         <meta charset="UTF-8">
         <title>admin dashbored</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/adminstyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/adminstyle.css">
         <script src="js/bootstrap.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -59,7 +58,9 @@ if(isset($_POST['submit']))
     <body>
      
                 <div class="col-sm-10">
+                <center>
                     <h4>ادارة الفئات</h4>
+                    </center>
                     <div>
                        <?php echo message();
                            echo Successmessage()

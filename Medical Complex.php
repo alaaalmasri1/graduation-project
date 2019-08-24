@@ -29,11 +29,7 @@ include "include/header.php";
     
        &nbsp;
 
-    </li>
-    
-    <li class="current"><a href="Medical%20Complex.php">المجمع الطبى</a></li>
-    <li class="onlineregister"><a href="cliniconline.php">التسجيل الالكترونى</a></li>
-    
+    </li>    
 </ul>
 </div>
 <div id="middle">

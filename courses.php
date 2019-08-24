@@ -1,8 +1,5 @@
 <?php
-
-
 include "include/header.php";
-
 ?>
    <style>
    body
@@ -227,7 +224,7 @@ include "include/header.php";
                             <div class="card-body">
                                 <h5 style="margin-left:40px;" class="card-title">دورة صيانة الهواتف الخلوية </h5>
                                 <p class="card-title">تعلم صيانة الهواتف الذكية وكيفية تحديد الاعطال وكيفية القيام بعملية الاصلاح للهاتف الذكي هو الهدف الرئيسي من كتاب تعليم صيانة الهواتف الذكية </p>
-                                 <a href="courseform.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
+                                 <a href="phone.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +234,7 @@ include "include/header.php";
                             <div class="card-body">
                                 <h5 style="margin-left:90px;" class="card-title">دورة الخياطة </h5>
                                 <p class="card-title">و من اهذاف دورة الخياطة لتعرف على بعض القواعد العامة لاختيار  الملابس و من اهذاف دورة الخياطة لتعرف على بعض القواعد العامة لاختيار  الملابس     </p>
-                                 <a href="courses.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
+                                 <a href="sewing.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
                             </div>
                         </div>
                     </div>
@@ -247,7 +244,7 @@ include "include/header.php";
                             <div class="card-body">
                                 <h5 class="card-title" style="margin-left:30px;">دورة صناعة الصابون والمنطفات </h5>
                                 <p class="card-title">وتهدف الدورة إلى تعريف المتدربات وعددهن (15) متدربة يتدربن على كيفية صناعة الصابون والمنظفات من خلال التدريب النظري والعملي.</p>
-                                <a href="coursesform.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
+                                <a href="soap.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
                              </div> 
                         </div>
                         
@@ -258,7 +255,7 @@ include "include/header.php";
                             <div class="card-body">
                                 <h5 class="card-title" style="margin-left:90px;">icdl دورة </h5>
                                 <p class="card-title">ي شهادة دولية تشهد لحاملها أن لديه المعلومات والمهارات الضرورية في مجال تكنولوجيا المعلومات وأنه قادر على استخدام جهاز الحاسب </p>
-                                <a href="courseform.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
+                                <a href="icdlform.php" ><button  style="margin-left:200px"class="btn btn-primary">تسجيل</button></a>
                              </div>
                         </div>
                     </div>

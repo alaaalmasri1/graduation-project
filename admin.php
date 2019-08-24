@@ -74,7 +74,7 @@ $number    = preg_match('@[0-9]@', $password);
         </style>
         <meta charset="UTF-8">
         <title>manage admin</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/adminstyle.css">
         <script src="js/bootstrap.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>

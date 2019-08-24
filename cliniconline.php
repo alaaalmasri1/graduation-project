@@ -7,8 +7,8 @@ require_once "include/function.php";
 if(isset($_POST['submit']))
 {
     //prevernt sql injection
-    $username=  mysqli_real_escape_string($connection,$_POST['Usename']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
-    $password=  mysqli_real_escape_string($connection,$_POST['password']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+    $username=  mysql_real_escape_string($_POST['Usename']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+    $password=  mysql_real_escape_string($_POST['password']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
     
     if(empty($username) ||empty($password)) {
         echo $_SESSION['error']="ALL filed must be filled out";
@@ -39,13 +39,14 @@ if(isset($_POST['submit']))
            else
            {
                 echo $_SESSION['error']="invailid user";
-        rediret_to("login.php");
+        rediret_to("cliniconline.php");
         exit;
            }
            
         }
     
 }
+
 ?>
 <!DOCTYPE html>
 <!--All HTML documents must start with a document type declaration -->
@@ -76,8 +77,8 @@ if(isset($_POST['submit']))
         <!-- font-awsome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<link type="text/css" rel="stylesheet" href="css/carousel.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/carousel.css" />
 
         <!--Main Stylesheet-->
         <link rel="stylesheet" v=1.0 type="text/css" href="css/style.css">
@@ -116,27 +117,26 @@ if(isset($_POST['submit']))
                            echo Successmessage()
                    ;?>
                     <div>
-                        <form action="login.php" method="post">
+                        <form action="cliniconline.php" method="post">
 <fieldset>
     <div class="form-group"><!--putting space optimal space around the input-->
         
         
-    <label for="Usename" style="margin-left:350px;">:اسم المستخدم</label><!-- the label must match the input name if u want to add the correct feaild-->
+    <label for="Usename">Username:</label><!-- the label must match the input name if u want to add the correct feaild-->
     <div class="input-group input-group-lg">
             <span class="input-group-addon">
                 <i class="fas fa-envelope text-primary"></i>
             </span>
-    <input  class="form-control" type="text" name="Usename" id="Usename" placeholder="اسم المستخدم"><!-- form control allow you to controll the length of the input-->
+    <input  class="form-control" type="text" name="Usename" id="Usename" placeholder="Usename"><!-- form control allow you to controll the length of the input-->
     </div>
        
-    <label for="password" style="margin-left:360px;">:كلمة المرور</label><!-- the label must match the input name if u want to add the correct feaild-->
+    <label for="password">password:</label><!-- the label must match the input name if u want to add the correct feaild-->
      <div class="input-group input-group-lg">
            <span class="input-group-addon">
                <i class="fas fa-lock text-primary"></i>
             </span>
-    <input  class="form-control" type="password" name="password" id="password" placeholder="كلمة المرور"><!-- form control allow you to controll the length of the input-->
+    <input  class="form-control" type="password" name="password" id="password" placeholder="password"><!-- form control allow you to controll the length of the input-->
     </div>
-    
     </div>
     <input class="btn btn-info btn-block" type="submit" name="submit" value="Login">
 </fieldset>

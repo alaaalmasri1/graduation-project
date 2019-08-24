@@ -185,7 +185,7 @@ h5 {
                             <p style="font-size:20px;">من المهمات التي أثبتت أثرها على المشاركين بها هي المحاضن التربوية,كيف بها أن تصنع للمجتمع قادة لمعركة الحياة,ولذا يحسن بالقائمين عليها العناية بها وتفعيل بعض البرامج التي سيكون شهر رمضان خير من يدعمها من اهافها خطة متكاملة تتضمن أهداف يسيرة العدد متينة المعنى ,يندرج منها آليات مقننة للعمل.وموزعة المهام.
                                 زيارات الدعاة في بيوتهم,وعمل اللقاءات معهم و.
                                 توعية الناس من خلال القوافل الدعوية.وتنسيق بعض البرامج النافعة .</p>
-                            <button class="btn btn-primary" style="float:right;">للمزيد</button>
+                                <a href="ramdan.php"><button class="btn btn-primary" style="float:right;">للمزيد</button></a>
                         </div>
                         <div class="col-md-3"><img src="images/project2.jpg" style="height:150px;" class="img-responsive"></div>
                     </div>
@@ -198,7 +198,7 @@ h5 {
                             <h2 style="margin-left:750px;">مشروع الاضاحى</h2>
                             <p style="font-size:20px;">ير من الدول العربية والأجنبية، ففي الاردن يتم تنفيذ المشروع من خلال شراء الأعداد المطلوبة وذبحها في المجازر والمسالخ الحكومية ومن ثم توزيعها على الفقراء والمحتاجين والأسر المتعففة التي تقوم الجمعية برعايتها والتي لها قوائم محددة في الجمعية.
                                 أما في الخارج فيتم الاتفاق مع عدد من الجمعيات التي تقوم بتنفيذ المشروع وفق آلية محددة بعد أن نقوم بإرسال تكلفة الأضاحي لتلك الدول</p>
-                            <button class="btn btn-primary" style="float:right;">للمزيد</button>
+                                <a href="feaset.php"><button class="btn btn-primary" style="float:right;">للمزيد</button></a>
                         </div>
                         <div class="col-md-3"><img src="images/p3.jpg" class="img-responsive"></div>
                     </div>
@@ -240,7 +240,7 @@ h5 {
                 <div class="card">
                     <img class="card-img-top" src="images/p2.jpg">
                     <div class="card-block">
-                       <a href="#"><h5 style="text-align:center;" class="text-bold">مشروع السلة الغذائية</h5></a> 
+                       <a href="basket.php"><h5 style="text-align:center;" class="text-bold">مشروع السلة الغذائية</h5></a> 
                     </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@ h5 {
                 <div class="card">
                     <img class="card-img-top" src="images/%D8%AD3.jpg">
                     <div class="card-block">
-                       <a href="#"><h5 style="text-align:center;" class="text-bold">مشروع الرخيف الخيرى</h5></a> 
+                       <a href="braed.php"><h5 style="text-align:center;" class="text-bold">مشروع الرخيف الخيرى</h5></a> 
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@ h5 {
                 <div class="card">
                     <img class="card-img-top" src="images/p5.jpg">
                     <div class="card-block">
-                       <a href="#"><h5 style="text-align:center;" class="text-bold">مشروع مساعدة المرضى</h5></a> 
+                       <a href="medicalhelp.php"><h5 style="text-align:center;" class="text-bold">مشروع مساعدة المرضى</h5></a> 
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@ h5 {
                 <div class="card card-inverse card-primary " style="margin:5px;">
                     <img class="card-img-top" src="images/p6.jpg">
                     <blockquote class="card-blockquote p-3">
-                        <a href="#"><h5 style="text-align:center;" class="text-bold">مشروع كفالة اليتيم</h5></a> 
+                        <a href="orphen.php"><h5 style="text-align:center;" class="text-bold">مشروع كفالة اليتيم</h5></a> 
                     
                         
                     </blockquote>
@@ -294,7 +294,7 @@ h5 {
                 <div class="card card-inverse card-info" style="margin:5px;">
                     <img class="card-img-top" src="images/p8.jpg">
                     <div class="card-block">
-                       <a href="#"> <h4 class="card-title mt-3" style="text-align:center">مشروع رمضان</h4></a>
+                       <a href="ramdan.php"> <h4 class="card-title mt-3" style="text-align:center">مشروع رمضان</h4></a>
                         
                        
                     </div>
@@ -305,7 +305,7 @@ h5 {
                 <div class="card card-inverse card-info" style="margin:5px;">
                     <img class="card-img-top" src="images/p9.jpeg" style="height:260px;">
                     <div class="card-block">
-                       <a href="#"> <h4 class="card-title mt-3" style="text-align:center">مشروع الاضاحى</h4></a>
+                       <a href="feaset.php"> <h4 class="card-title mt-3" style="text-align:center">مشروع الاضاحى</h4></a>
                         
                        
                     </div>

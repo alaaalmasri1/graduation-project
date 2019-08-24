@@ -69,8 +69,7 @@ if(isset($_POST['add']))
         <!-- font-awsome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <!--Main Stylesheet-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" v=1.0 type="text/css" href="css/style.css">
@@ -165,17 +164,15 @@ if(isset($_POST['add']))
                                     </ul>
                                 </li>
                               
-                                <li><a href="blog.html">مشاريع الجمعية</a>
+                                <li><a href="project.php">مشاريع الجمعية</a>
                                 <li class="dropdown">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">الانشطة
                                         <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="activity.php">انشطة الجمعية</a></li>
-                                        <li><a href="#">الندوات الرئسية</a></li>
                                         <li><a href="courses.php">دورات تدربية</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="payment.php">التبرع</a></li>
                                 <li><a href="Volunteer.php">التطوع</a></li>
                                 <li><a href="Gallery.php">معرض الصور</a></li>
                                 <li><a href="about.php">من نحن</a></li>
@@ -379,8 +376,9 @@ if(isset($_POST['add']))
 
                     <div class="box box-solid box-actions">
                         <div class="box-body">
-                            <button type="submit" id="submit-form"  name="submit" class="btn btn-success btn-lg" style="margin-left:400px;">ارسل</button>
+                        <center>
                               <button type="submit" id="submit-form"  name="add" class="btn btn-success btn-lg">اضافة</button> </div>
+                              </center>
                     </div>
 
                     </form>

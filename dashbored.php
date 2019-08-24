@@ -3,12 +3,11 @@ include 'include/session.php';
 require 'include/function.php';
 include "include/db.php";
 ?>
-<?php confirmlogin()?>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>admin dashbored</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/adminstyle.css">
     <script src="js/bootstrap.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>

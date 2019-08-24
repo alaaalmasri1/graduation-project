@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <!-- Bootstrap -->
   
-   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
        
 
         <link rel="stylesheet"  type="text/css" href="css/medical.css">

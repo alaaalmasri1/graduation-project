@@ -33,8 +33,7 @@ require_once "include/function.php";
         <!-- font-awsome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <!--Main Stylesheet-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" v=1.0 type="text/css" href="css/style.css">
@@ -137,7 +136,6 @@ require_once "include/function.php";
                                         <li><a href="courses.php">دورات تدربية</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="payment.php">التبرع</a></li>
                                 <li><a href="Volunteer.php">التطوع</a></li>
                                 <li><a href="Gallery.php">معرض الصور</a></li>
                                 <li><a href="about.php">من نحن</a></li>
@@ -328,7 +326,7 @@ require_once "include/function.php";
                                         <li class="bullet-item">
                                             <p><span style="color: #ff6600;"><strong>انشطة ورحلات حج وعمرة للأيتام</strong></span></p>
                                         </li>
-                                        <li class="cta-button"><button type="button" class="btn btn-primary">المزيد</button></li>
+                                        <li class="cta-button"><a href="orphen.php"  class="btn btn-primary">المزيد</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -350,7 +348,7 @@ require_once "include/function.php";
                                         <li class="bullet-item">
                                             <p><span style="color: #ff6600;"><strong>التعامل مع اكثر من 50 مخبز على مستوى الاردن</strong></span></p>
                                         </li>
-                                        <li class="cta-button"><button type="button" class="btn btn-primary">المزيد</button></li>
+                                        <li class="cta-button"><a href="bread.php"  class="btn btn-primary">المزيد</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -373,7 +371,7 @@ require_once "include/function.php";
                                             <li class="bullet-item">
                                                 <p><span style="color: #ff6600;"><strong>توزيع طرود الخير للأخوة السوريين</strong></span></p>
                                             </li>
-                                            <li class="cta-button"><button type="button" class="btn btn-primary">المزيد</button></li>
+                                <li class="cta-button"><a href="package.php"  class="btn btn-primary">المزيد</a></li>
                                         </ul>
                                     </div>
                             </div>
@@ -493,140 +491,7 @@ require_once "include/function.php";
         </div>
     </section>
     <!--start of event-->
-    <section id="event">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="event_header text-center">
-                        <h2>احدث الاخبار</h2>
-                    </div>
-                </div>
-            </div>
-            <!--End of row-->
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6 zero_mp">
-                            <div class="event_item">
-                                <div class="event_img">
-                                    <img id="img1" src="images/%D8%A7%D9%86%D8%AC%D8%A7%D8%B22.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 zero_mp">
-                            <div class="event_item">
-                                <div class="event_text text-center">
-                                    <a href="">
-                                        <h4>البشير يرعى حفل تخريج ثلاث دورات في قيادة الحاسوب الدولية (ICDL)</h4>
-                                    </a>
-                                    <p>رعى الأستاذ خالد البشير مدير مدرسة الثانوية الشاملة للبين سابقاً حفل تخريج المتدربين من دورات قيادة الحاسوب الدولية “ICDL” السادسة والسابعة والثامنة للنصف الثاني من عام 2018 بمركز التدريب المهني والحرفي والتعليمي بجمعية التكافل
-                                        الخيرية في مدينة الرمثا يوم الأحد الموافق 16/12/2018، وقدم البشير كلمة تشجيعية في الحث على الاستمرار في العمل ومواصلة التعليم.
-                                        وأكد البشير على ضرورة الاستمرار في العمل ومواصلة التعليم وتحسين ظروف المعيشة، والاهتمام بالتكنولوجيا والتطبيقات اللازمة لذلك، الحكومية والخاصة والخيرية.
-                                        .</p>
-                                    <a href="" class="event_btn">المزيد</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End of row-->
-                    <div class="row">
-                        <div class="col-md-6 ">
-                            <div class="event_item">
-                                <div class="event_text text-center">
-                                    <a href="">
-                                        <h4>جمعية التكافل الخيرية تشارك في منصة الإبداع والابتكار الشبابي</h4>
-                                    </a>
-                                    <p>تحت رعاية الأمين العام لوزارة الشباب عطوفة الدكتور ثابت النابلسي، وضمن مشروع مكاني شاركت جمعية التكافل الخيرية فرع النعيمة بمشروع “مختبر الابتكار الاجتماعي في منصة الإبداع والابتكار الشبابي” في مدينة الحسن الرياضية للشباب،
-                                        وتناول المشروع عرضاً للمشاريع التكنلوجية التي ينفذها الشباب اليافع، وكانت مشاركة الجمعية ممثلة بالشاب معتز يونس ابداح، والذي قدم مشروعاً ريادياً يتمثل بتدريب الشباب اليافعين على أساسيات البرمجة والتصوير، .</p>
-                                    <a href="" class="event_btn">المزيد</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 zero_mp">
-                            <div class="event_item">
-                                <div class="event_img">
-                                    <img src="images/انجاز4.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End of row-->
-                </div>
-                <!--End of col-md-8-->
-                <div class="col-md-3">
-                    <div class="event_news">
-                        <div class="event_single_item fix">
-                            <div class="event_news_img floatleft">
-                                <img src="images/انجاز1.jpg" width="100" alt="">
-                            </div>
-                            <div class="event_news_text">
-                                <a href="#">
-                                    <h4>محاضرة طبية توعوية حول مرض السكري</h4>
-                                </a>
-                                <p>ضمن حملة اسمعنا صحتك بتهمنا، قدم طاقم مركز التكافل الصحي التابع لجمعية التكافل الخيرية : محاضرة طبية توعوية للاخوات ومن مختلف الجنسيات، حول داء ( السكري ) . في مقر جمعية الابرار النسائية الخيرية والتي مقرها لواء الرمثا، وذلك اليوم
-                                    السبت الموافق 2016/4/23 م .</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event_news">
-                        <div class="event_single_item fix">
-                            <div class="event_news_img floatleft">
-                                <img src="images/alaa.jpeg" width="100" alt="">
-                            </div>
-                            <div class="event_news_text">
-                                <a href="#">
-                                    <h4> مشروع للمشاركة المجتمعية يكرم جمعية التكافل الخيرية</h4>
-                                </a>
-                                <p>رم مشروع USAID للمشاركة المجتمعية وبلدية إربد الكبرى – منطقة النعيمة جمعية التكافل الخيرية بدرع التميز وسط حضور رسمي وشعبي على تعاونهم ودورهم الفاعل في إنجاح مشروع تعزيز قدرة بلدية إربد الكبرى ومنطقة النعيمة الإدارية </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event_news">
-                        <div class="event_single_item fix">
-                            <div class="event_news_img floatleft">
-                                <img src="images/alaa3.jpg" width="100" alt="">
-                            </div>
-                            <div class="event_news_text">
-                                <a href="#">
-                                    <h4>إعلان التسجيل لدورات مركز التدريب المهني والحرفي</h4>
-                                </a>
-                                <p>علن مركز التدريب الحرفي والمهني في جمعية التكافل الخيرية عن توفر مجموعة من الدورات المهنية والحرفية في المركز
-                                    * دورات خاصة بالذكور وأخرى بالإناث.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End of col-md-4-->
-        </div>
-        <!--End of row-->
-        <!--End of container-->
-    </section>
-    <!--end of event-->
-
-    <!--end of counter-->
-    <!--Start of contact-->
-    <section class="video-area" id="video">
-        <div class="color-overlay" id="color_overlay">
-            <div class=" video-container">
-                <div id="player">
-                    <div class="video-mask">
-
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <div class="video-mask">
-                                    <a href="https://www.youtube.com/watch?v=CWbzadURP5w" class="play"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+   
 
     <section id="contact">
         <div class="container">

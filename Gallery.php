@@ -19,7 +19,7 @@ font-family:san-serif;
         width: 200px;
         height: 200px;
         padding: 5px;
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transition: 0.5s;
     }
      .galleryimg:hover

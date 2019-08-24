@@ -11,8 +11,8 @@ include "include/function.php";
 <link rel="stylesheet" href="css/alaa.css">
 <link rel="stylesheet" href="css/blog.css">
 <script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'>
+</script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 

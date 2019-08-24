@@ -1,12 +1,14 @@
-<?php include"include/db.php";
-include "include/session.php";
-include "include/function.php";
+<?php
+require_once "include/db.php";
+require_once "include/session.php";
+require_once "include/function.php";
 ?>
 <!DOCTYPE html>
 <!--All HTML documents must start with a document type declaration -->
 <html lang="en">
 <!-- The HTML document itself begins with <html> and ends with and we used en to help with the search engine </html>. -->
 
+<head>
     <!-- represents introductory content, typically a group of introductory or navigational aids-->
     <!-- required meta tags-->
     <meta charset="UTF-8"> <!-- s character encoding capable of encoding all characters on the web -->
@@ -15,13 +17,11 @@ include "include/function.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- the following value to display the webpage in edge mode, which is the highest stand<!DOCTYPE html>
     <!--html lang="en"-->
-
-    <head>
         <meta charset="UTF-8">
         <meta name="description" content="altkaful.net website">
         <!--Define a description of your web page:-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- the following value to display the webpage in edge mode, which is the highest standards mode supported by Internet Explorer and chrome-->
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="keywords" contentf="HTML,CSS,XML,JavaScript">
         <!--Define keywords for search engines-->
         <meta name="author" content="ALAA almasri,huthaifa khazaleh,shahem qasem"> <!--  Define the author of a page: -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,8 +32,7 @@ include "include/function.php";
         <!-- font-awsome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <!--Main Stylesheet-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" v=1.0 type="text/css" href="css/style.css">
@@ -43,7 +42,7 @@ include "include/function.php";
         <script src="js/bootstrap.min.js"></script>
     </head>
     <!--loading-->
-    <div class="LogosArea">
+   <div class="LogosArea">
         <div class="container">
             <div class="col-md-3">
                 <a href="index.php" class="headerZfLogo" title="">
@@ -64,7 +63,8 @@ include "include/function.php";
     <!-- to the element that should be used as the scrollable area-->
     <!--Start Hedaer Section-->
     <!--section and div are A sections in a document-->
-    
+    <?php 
+ echo Successmessage()                ;?>
     <section id="header">
         <div class="header-area">
             <div class="top_header">
@@ -132,7 +132,6 @@ include "include/function.php";
                                         <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="activity.php">انشطة الجمعية</a></li>
-                                       
                                         <li><a href="courses.php">دورات تدربية</a></li>
                                     </ul>
                                 </li>
@@ -147,9 +146,10 @@ include "include/function.php";
                             </ul>
                             <ul class="left" style="margin-top:3px;">
                                 <li class="dropdown themesDrop">
-                                    <button id="btn"><img src="images/themes.png"></button>
+                                    <button id="btn" style="margin-left:25px; position:absoloute;
+                                    top:5px;"><img src="images/themes.png"></button>
                                 </li>
-                               
+                              
                                 <li class="FontChanger">
                                   <li id="Li4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1006 dropdown  Pull-Corner" style="background-color: #074a7e;">
             <a href="login.php" style="color:#F4F4F4; margin:15px; font-size:20px;">تسجيل الدخول</a>
@@ -170,62 +170,121 @@ include "include/function.php";
         </div>
         <!--End of header menu-->
     <!--Start of slider section-->
+<?php
+if(isset($_POST['submit']))
+{
+    $name=  mysql_real_escape_string($_POST['name']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+    $email=  mysql_real_escape_string($_POST['mob']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+    $phone=  mysql_real_escape_string($_POST['email']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+     $question=  mysql_real_escape_string($_POST['question']);//mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement
+    $course="icdl";
+     $query="INSERT INTO course(name,email,phone,question,coursename) 
+                 values(' $name','$email',' $phone','$question','$course')";
+       
+        $excute=  mysqli_query($connection,$query);
+        if($excute)
+        {
+            $_SESSION['Successmessage']="تم ارسال المعلمومات بى نجاح ";
+        rediret_to("icdlfor,.php");
+        }
+        else
+        {
+            $_SESSION['error']=" فشل فى عملية الارسال ";
+             rediret_to("icdlform.php");
+        }
+}
 
-    <body>
-<br>
-<br>
-<br>
-<div id="content">
-				<div class="row">
-	<div class="col-md-12">
-			</div>
-</div>
-<div class="page-section row">
-		
-		<div class="col-md-12">
-		<p style="text-align: left;"></p><div class="box-section   " style=""><p></p>
-<h2 style="text-align: center;"><span style="color: #008000;">للتبرع والدعم</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>*من داخل المملكة الأردنية الهاشمية* </strong><strong><br>
-</strong><strong>{البنك الإسلامي الأردني} </strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>بجميع فروعه والرئيسي</strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>على حساب</strong><strong>: </strong><strong>جمعية التكافل الخيرية فرع الرمثا </strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>swft code</strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>JIBAJOAM</strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>13166</strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>*من خارج المملكة*</strong></span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">البنك الاسلامي فرع 75</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">رقم الحساب : 0979657410400004</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;">&nbsp;</span></h2>
-<h2 style="text-align: center;"><span style="color: #008000;"><strong>I-BAN:JO 49 JIBA 0750 0009 7965 7410 4000 04</strong></span></h2>
-<p></p></div><p></p>
-			</div>
-		</div>
-</div>
-        </body>
-    </section>
-     <section id="footer">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="copyright">
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="designer">
-                           
-                        </div>
-                    </div>
-                </div>
-                <!--End of row-->
+?>
+<style>
+
+form_main {
+    width: 100%;
+}
+.form_main h4 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.heading {
+    border-bottom: 1px solid #fcab0e;
+    padding-bottom: 9px;
+    position: relative;
+}
+.heading span {
+    background: #9e6600 none repeat scroll 0 0;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 75px;
+}   
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt_3[type="text"] {
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt2[type="submit"] {
+    background: #242424 none repeat scroll 0 0;
+    border: 1px solid #4f5c04;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 30%;
+}
+.txt2:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #5793ef;
+    transition: all 0.5s ease 0s;
+}
+
+</style>
+<div class="container">
+	<div class="row">
+    <div class="col-md-12">
+    <center>
+		<div class="form_main">
+                <h4 class="heading"><strong>icdl </strong> دورة  <span></span></h4>
+                <div class="form">
+                <form action="icdlform.php" method="post" id="contactFrm" name="contactFrm">
+                    <input type="text" dir=rtl required="" placeholder="ادخل الاسم " value="" name="name" class="txt">
+                    <input type="text" dir="rtl" required="" placeholder="ادخل رقم الهاتف" value="" name="mob" class="txt">
+                    <input type="text" dir="rtl" required="" placeholder="البريد الالكترونى" value="" name="email" class="txt">
+                    
+                	 <textarea dir=rtl placeholder="استفسارات عن الدورات" name="question" type="text" class="txt_3"></textarea>
+                     <input  type="submit" value="ارسال" name="submit" class="txt2">
+                </form>
+                   </div>
+                
             </div>
-            <!--End of container-->
-        </section>
-    </body>
-   
-</html>
+        </center>
+            </div>
+        </div>
+	</div>
+
+
+
+
+
+
+<?php
+include "include/footer.php";
+
+?>
